@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --haptic-duration: 50ms;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+button:active {
+  filter: brightness(1.1);
+}
